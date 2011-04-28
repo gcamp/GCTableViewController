@@ -1,0 +1,9 @@
+h1. GCTableViewController
+
+Subclass of @UIViewController@ that mimics the @UITableViewController@ except that the tableView is a subview of @self.view@ (as opposed to the view itself). Also allow changes in the frame of the tableView and other subviews to self.view
+
+h2. Usage
+
+(See the demo project included)
+
+@GCTableViewController@ is a drop-in replacement of @UITableViewController@. You use it *exactly* like @UITableViewController@ except for the specific adventages.
